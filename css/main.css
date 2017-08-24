@@ -1,1 +1,90 @@
+h2 {
+  padding: 0;
+  margin: 0;
+}
+
 /* TODO: insert styles here */
+h1 {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+
+h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  font-weight: bold;
+
+}
+
+h3 {
+  font-family: 'Roboto Monospace', monospace;
+}
+
+p {
+  font-family: 'Roboto Light', sans-serif;
+}
+
+header{
+  margin-bottom:50px;
+}
+.table-header {
+  background-color: #4757ff;
+  padding: 5px;
+}
+
+.remotes-header {
+  background-color: #fb4e32;
+  padding: 5px;
+}
+
+.local-item {
+  padding-left: 5px;
+  border-bottom: 2px solid #4757ff;
+  padding: 0 5px;
+}
+
+.remotes-item {
+  padding-left: 5px;
+  border-bottom: 2px solid #FB4E32;
+  padding: 0 5px;
+}
+
+.local-item h3{
+  color: #4757ff;
+
+}
+
+.remotes-item h3{
+  color: #fb4e32;
+}
+.container {
+  margin: 0 auto;
+  width: 80%;}
+.local{
+  width:45%;
+  border:2px solid #4757ff;
+  border-bottom: none;
+  display:inline-block;
+  vertical-align: top;
+  margin-right: 30px;
+}
+
+.remote {
+width: 45%;
+border: 2px solid #FB4E32;
+display: inline-block;
+vertical-align: top;
+border-bottom:none;
+}
+
+@media screen and (max-width: 768px) {
+  .local {
+    width:100%;
+    margin-bottom: 30px;
+  }
+
+  .remote {
+    width: 100%;
+  }
+}
